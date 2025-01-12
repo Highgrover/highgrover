@@ -1,0 +1,168 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+} */
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* header_custom */
+.header_custom {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header_custom h1 {
+    font-size: 3em;
+}
+
+.header_custom p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* About Section */
+.about-section {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* About Owner Section */
+.about-owner {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.about-owner h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.owner-info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+@media (max-width: 500px){
+    .owner-info {
+
+    display: block;
+    text-align: center;
+
+    }
+}
+
+.owner-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.owner-bio {
+    max-width: 800px;
+}
+
+.owner-bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Core Values Section */
+.core-values {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.core-values h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.core-values ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.core-values li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+/* Services Section */
+.services {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 20px;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1.2em;
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.cta button {
+    background-color: #f2a365;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background-color: #e09e59;
+}
+
+
